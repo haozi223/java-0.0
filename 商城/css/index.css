@@ -1,0 +1,127 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration:  none;
+	font-size: 12px;
+	color: #333333;
+}
+ul {
+	list-style: none;
+}
+#container {
+	width: 980px;
+	margin: 0 auto;
+	background-color: #FFE4C4;
+}
+
+#header {
+	height: 135px;
+	width: 100%;
+}
+	#header #header-top{
+		height: 98px;
+		width: 100%;
+		background: url(../img/h_bg.jpg) no-repeat -23px 0px;
+	}
+		#header #header-top #logo{
+			height: 100%;
+			width: 54%;
+			float: left;
+			
+		}
+		#header #header-top #logo a{
+			display: inline-block;
+			height: 100%;
+			width: 100%;
+		}
+		#header #header-top #car{
+			height: 75%;
+			width: 46%;
+			float: left;
+		}
+			#car  ul {
+				padding-top: 12px;
+				padding-left: 10px;
+			}
+			#car  ul li {
+				list-style: none;
+				float: left;
+			}
+			#car  ul li a {
+				width: 28px;
+				height: 28px;
+				text-decoration: none;
+				font-size: 12px;
+				color: #333333;
+				display: inline-block;
+				line-height: 28px;
+				text-align: center;
+			}
+			#car  ul li a.text {
+				width: 54px;
+			}
+			#car  ul li a.pic {
+				
+				background: url(../img/icon.gif) no-repeat 4px -2px;
+			}
+			#car  ul li a.pic2{background-position: -43px -2px;}
+			#car  ul li a.pic3{background-position: -84px -2px;}
+			#car  ul li a.pic4{background-position: -125px -2px;}
+			#car  ul li a.pic5{
+				width: 46px;
+				background-position: -1px -25px;
+			}
+		#header #header-top #welcome{
+			height: 25%;
+			width: 46%;
+			float: left;
+			color: #636362;
+			font-size: 12px;
+			letter-spacing: 4px;
+		}
+	#header #header-nav{
+		height: 38px;
+		width: 100%;
+		clear: both;
+		background: url(../img/h_bg.jpg) no-repeat -23px -98px;
+	}
+	#header #header-nav #nav li {
+		float: left;
+	}
+	#header #header-nav #nav a {
+		display: inline-block;
+		width: 84px;
+		height: 100%;
+		line-height: 31px;
+		text-align: center;
+		font-size: 13px;
+		font-weight: bold;
+	}
+	#header #header-nav #nav a:hover{
+		background: url(../img/nav_bg.gif) no-repeat 0px 0px;
+	}
+	
+	#header #header-nav #soso {
+		float: right;
+		width: 238px;
+	}
+	#header #header-nav #soso li {
+		float: left;
+		height: 31px;
+		line-height: 30px;
+	}
+	#header #header-nav #soso li #content{
+		width: 157px;
+		height: 20px;
+		opacity: .5;
+		border: 0px solid #FFFFFF;
+	}
+	#header #header-nav #soso li #soclick {
+		opacity: 0;
+		border: 0px solid #FFFFFF;
+		width: 80px;
+		height: 30px;
+		cursor: pointer;
+	}
