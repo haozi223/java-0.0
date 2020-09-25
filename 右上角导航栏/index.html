@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>右上角导航栏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #app {
+            width: 980px;
+            margin: 0 auto;
+        }
+
+        #app .top {
+            float: right;
+			padding-top: 5px;
+        }
+		#app .top li{
+			list-style: none;
+			float: left;
+		}
+        #app .top li a{
+			height: 28px;
+			display: flex;
+			color: #333;
+			font-size: 12px;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		#app .top li a:hover{
+			color: red;
+		}
+		#app .top li a em{
+			display: inline-block;
+			width: 30px;
+			height: 100%;
+		}
+		#app .top li a p{
+			line-height: 28px;
+		}
+		.one{
+			background: url(img/download.gif) no-repeat 0px 0px;
+		}
+		.two{
+			background: url(img/download.gif) no-repeat -40px 0px;
+		}
+		.three{
+			background: url(img/download.gif) no-repeat -84px 0px;
+		}
+		.four{
+			background: url(img/download.gif) no-repeat -126px 0px;
+		}
+		#app .top li .kuan{
+			padding: 4px 4px;
+			height: 20px;
+		}
+		#app .top li .kuan p{
+			line-height: 16px;
+			border: 1px solid #333333;
+			height: 16px;
+			font-size: 12px;
+			padding: 1px 4px;
+			border-radius:5px
+		}
+        
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <ul class="top">
+           <li>
+			   <a>
+				   <em class="one"></em>
+				   <p>购物车</p>
+			   </a>
+		   </li>
+		   <li>
+		   			   <a>
+		   				   <em class="two"></em>
+		   				   <p>加入收藏</p>
+		   			   </a>
+		   </li>
+		   <li>
+		   			   <a>
+		   				   <em class="three"></em>
+		   				   <p>帮助中心</p>
+		   			   </a>
+		   </li>
+		   <li>
+		   			   <a>
+		   				   <em class="four"></em>
+		   				   <p>设为首页</p>
+		   			   </a>
+		   </li>
+		   <li style="margin-left: 10px;">
+			   <a class="kuan"><p>登录</p></a>
+		   </li>
+		   <li>
+			   <a class="kuan"><p>注册</p></a>
+		   </li>
+        </ul>
+    </div>
+</body>
+
+</html>
