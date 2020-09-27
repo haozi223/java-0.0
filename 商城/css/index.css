@@ -13,12 +13,12 @@ ul {
 #container {
 	width: 980px;
 	margin: 0 auto;
-	background-color: #FFE4C4;
 }
 
 #header {
 	height: 135px;
 	width: 100%;
+	margin-bottom: 6px;
 }
 	#header #header-top{
 		height: 98px;
@@ -67,8 +67,8 @@ ul {
 				background: url(../img/icon.gif) no-repeat 4px -2px;
 			}
 			#car  ul li a.pic2{background-position: -43px -2px;}
-			#car  ul li a.pic3{background-position: -84px -2px;}
-			#car  ul li a.pic4{background-position: -125px -2px;}
+			#car  ul li a.pic3{background-position: -84px -1px;}
+			#car  ul li a.pic4{background-position: -125px 0px;}
 			#car  ul li a.pic5{
 				width: 46px;
 				background-position: -1px -25px;
@@ -124,4 +124,104 @@ ul {
 		width: 80px;
 		height: 30px;
 		cursor: pointer;
+	}
+	.cantan{
+		display: flex;
+		justify-content: space-between;
+	}
+	.cantan .left{
+		margin-top: 6px;
+		width: 200px;
+		height: 640px;
+		overflow: hidden;
+		border-radius: 5px;
+	}
+	.cantan .center{
+		width: 524px;
+		height: 640px;
+	}
+	.cantan .right{
+		width: 234px;
+		height: 640px;
+		margin-top: 6px;
+	}
+	.cantan .left .top{
+		background-color: #f47e24;
+		height: 32px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.cantan .left .top a{
+		margin-top: 12px;
+		color: white;
+		font-size: 14px;
+		font-weight: 600;
+		text-shadow: 0 0 5px #666;
+		line-height: 14px;
+	}
+	.cantan .left .top .top-left{
+		margin-left: 12px;
+	}
+	.cantan .left .top .top-right{
+		margin-right: 16px;
+	}
+	.cantan .left .fenglei .biaolan{
+		height: 26px;
+		background-color: #efefef;
+		border: 1px solid #c7c7c7;
+	}
+	.cantan .left .fenglei .biaolan a{
+		line-height: 28px;
+		font-size: 14px;
+		color: #ff7300;
+		margin-left: 14px;
+		font-weight: 600;
+	}
+	.cantan .left .fenglei .xuanxiang{
+		height: 123px;
+		border-left: 1px solid #c7c7c7;
+		border-right: 1px solid #c7c7c7;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-content: space-around;
+		padding: 3px 6px;
+	}
+	.cantan .left .fenglei .xuanxiang a{
+		font-size: 12px;
+		color: black;
+		display: inline-block;
+		width: 48px;
+	}
+	.cantan .center .tutu{
+		width: 524px;
+		height: 190px;
+		position: relative;
+	}
+	.cantan .center .tutu .zhezhao{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		opacity: 0;
+		z-index: 100;
+	}
+	.cantan .center .tutu p{
+		position: absolute;
+		left: 35px;
+		bottom: 10px;
+		z-index: 200;
+	}
+	.cantan .center .tutu p span{
+		font-size: 10px;
+		background-color: #ccc;
+		color: #333333;
+		margin-right: 4px;
+		padding: 4px 7px;
+		cursor: pointer;
+	}
+	.cantan .center .tutu p .huang{
+		background-color: #f47e24;
 	}
