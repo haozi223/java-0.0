@@ -298,3 +298,122 @@ ul {
 		-webkit-box-orient: vertical;
 		display: -webkit-box;
 	}
+	.cantan .right .gonggao{
+		width: 100%;
+		height: 126px;
+		overflow: hidden;
+		border-radius: 5px 5px 0 0 ;
+		margin-bottom: 6px;
+	}
+	.cantan .right .gonggao .lang{
+		height: 32px;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 12px;
+		background: linear-gradient(#fad09a, #f47e24);
+	}
+	.cantan .right .gonggao .lang a{
+		font-size: 14px;
+		line-height: 36px;
+		color: white;
+		font-weight: bold;
+		text-shadow: 0 0 5px #666;
+	}
+	.cantan .right .gonggao .gaocontent{
+		height: 92px;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		border-bottom: 2px solid #b0aba1;
+		display: flex;
+		align-items: center;
+		border-radius: 0 0 5px 5px;
+	}
+	.cantan .right .gonggao .gaocontent .yangtu{
+		display: block;
+		margin: 0 10px 0 12px;
+		width: 67px;
+		height: 70px;
+		background: url(../img/bg.gif) -762px -48px;
+	}
+	.cantan .right .gonggao .gaocontent .wenzi p{
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.cantan .right .xinping{
+		margin-bottom: 6px;
+	}
+	.cantan .right .xinping .biaolan{
+		height: 32px;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 12px;
+		background: linear-gradient(#fad09a, #f47e24);
+		border-radius: 5px 5px 0 0;
+	}
+	.cantan .right .xinping .biaolan a{
+		font-size: 14px;
+		line-height: 36px;
+		color: white;
+		font-weight: bold;
+		text-shadow: 0 0 5px #666;
+	}
+	.cantan .right .xinping .xinpingcontent{
+		box-sizing: border-box;
+		padding-top: 8px;
+		height: 260px;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		border-bottom: 2px solid #b0aba1;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		border-radius: 0 0 5px 5px;
+	}
+	.cantan .right .xinping .xinpingcontent .xinp{
+		display: flex;
+		align-items: center;
+	}
+	.cantan .right .xinping .xinpingcontent .xinp img{
+		width: 60px;
+		height: 47px;
+		border: 1px solid #ccc;
+		margin: 0 14px;
+	}
+	.cantan .right .xinping .xinpingcontent .xinp p{
+		font-size: 12px;
+	}
+	.cantan .right .chaxun {
+		height: 190px;
+		position: relative;
+	}
+	.cantan .right .chaxun1{
+		background: url(../img/bg.gif) 234px 220px ;
+	}
+	.cantan .right .chaxun2{
+		background: url(../img/bg.gif) 768px -10px ;
+	}
+	.cantan .right .chaxun .caozuo{
+		width: 230px;
+		height: 154px;
+		position: absolute;
+		left: 2px;
+		bottom: 0;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		border-bottom: 2px solid #b0aba1;
+		border-radius: 0 0 5px 5px;
+	}
+	.cantan .right .chaxun #bijiben{
+		width: 66px;
+		height: 22px;
+		position: absolute;
+		left: 12px;
+		top: 8px;
+	}
+	.cantan .right .chaxun #phone{
+		width: 66px;
+		height: 22px;
+		position: absolute;
+		left: 94px;
+		top: 8px;
+	}

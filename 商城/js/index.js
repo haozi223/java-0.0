@@ -4,6 +4,7 @@
     var tututu = document.getElementById('tututu');
     var yingying = document.getElementById('yingyong').children;
     var zhezhao = document.getElementById('zhezhao');
+    var huantu = document.getElementById('huantu');
     var zhezhaoqi;
     var zhezhaoshu = 1;
     var lunhuanshu = 1;
@@ -15,6 +16,14 @@
     function jialing (a) {
         if (a < 10) a = "0" + a;
         return a
+    }
+    document.getElementById('phone').onclick = function () {
+        huantu.classList.remove('chaxun1');
+        huantu.classList.add('chaxun2');
+    }
+    document.getElementById('bijiben').onclick = function () {
+        huantu.classList.remove('chaxun2');
+        huantu.classList.add('chaxun1');
     }
 
     function showTime () {
