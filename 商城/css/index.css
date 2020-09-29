@@ -135,6 +135,7 @@ ul {
 		height: 640px;
 		overflow: hidden;
 		border-radius: 5px;
+		border-bottom: 2px solid #b0aba1;
 	}
 	.cantan .center{
 		width: 524px;
@@ -146,7 +147,7 @@ ul {
 		margin-top: 6px;
 	}
 	.cantan .left .top{
-		background-color: #f47e24;
+		background: linear-gradient(#fad09a, #f47e24);
 		height: 32px;
 		display: flex;
 		justify-content: space-between;
@@ -166,12 +167,12 @@ ul {
 		margin-right: 16px;
 	}
 	.cantan .left .fenglei .biaolan{
-		height: 26px;
+		height: 22px;
 		background-color: #efefef;
 		border: 1px solid #c7c7c7;
 	}
 	.cantan .left .fenglei .biaolan a{
-		line-height: 28px;
+		line-height: 24px;
 		font-size: 14px;
 		color: #ff7300;
 		margin-left: 14px;
@@ -185,7 +186,7 @@ ul {
 		flex-wrap: wrap;
 		justify-content: space-around;
 		align-content: space-around;
-		padding: 3px 6px;
+		padding: 2px 6px;
 	}
 	.cantan .left .fenglei .xuanxiang a{
 		font-size: 12px;
@@ -197,6 +198,7 @@ ul {
 		width: 524px;
 		height: 190px;
 		position: relative;
+		margin-bottom: 12px;
 	}
 	.cantan .center .tutu .zhezhao{
 		position: absolute;
@@ -225,4 +227,62 @@ ul {
 	.cantan .center .tutu p .huang{
 		background-color: #f47e24;
 	}
-	.cantan .
+	.cantan .center .qianggou{
+		height: 443px;
+		border: 1px solid #c7c7c7;
+		overflow: hidden;
+		border-radius: 5px;
+		border-bottom: 2px #b0aba1 solid;
+	}
+	.cantan .center .qianggou .qiangtop{
+		height: 26px;
+		background: linear-gradient(#fad09a, #f47e24);
+		position: relative;
+	}
+	.cantan .center .qianggou .qiangtop .topzi{
+		font-size: 14px;
+		margin-left: 18px;
+		line-height: 26px;
+		color: white;
+		font-weight: bold;
+		text-shadow: 0 0 5px #666;
+	}
+	.cantan .center .qianggou .qiangtop .yuang{
+		width: 14px;
+		height: 14px;
+		border-radius: 14px;
+		position: absolute;
+		left: 78px;
+		top: 6px;
+		background-color: #f4d5b6;
+	}
+	.cantan .center .qianggou .qiangtop .yuang .jiangtou{
+		width: 8px;
+		height: 8px;
+		position: absolute;
+		left:35%;
+		top: 50%;
+		transform: translate(-50%,-50%) rotate(45deg);
+		background: linear-gradient(to right top,rgba(0,0,0,0) 50%, #f47e24 50%);
+		
+	}
+	.cantan .center .qianggou .shangping{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 10px 8px 5px;
+		align-content: space-around;
+		height: 400px;
+	}
+	.cantan .center .qianggou .shangping .shanp{
+		width: 156px;
+		height: 120px;
+	}
+	.cantan .center .qianggou .shangping .shanp img{
+		box-sizing: border-box;
+		display: inline-block;
+		height: 88px;
+		width: 104px;
+		border: 1px solid #ccc;
+		margin: 0 auto;
+	}
