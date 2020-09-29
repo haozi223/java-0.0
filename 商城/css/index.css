@@ -280,9 +280,21 @@ ul {
 	}
 	.cantan .center .qianggou .shangping .shanp img{
 		box-sizing: border-box;
-		display: inline-block;
+		display: block;
 		height: 88px;
 		width: 104px;
 		border: 1px solid #ccc;
 		margin: 0 auto;
+	}
+	.cantan .center .qianggou .shangping .shanp P{
+		font-size: 12px;
+		text-align: center;
+		width: 80%;
+		margin: 0 auto;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		word-break: break-word;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		display: -webkit-box;
 	}
