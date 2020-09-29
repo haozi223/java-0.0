@@ -128,6 +128,7 @@ ul {
 	.cantan{
 		display: flex;
 		justify-content: space-between;
+		margin-bottom: 5px;
 	}
 	.cantan .left{
 		margin-top: 6px;
@@ -416,4 +417,44 @@ ul {
 		position: absolute;
 		left: 94px;
 		top: 8px;
+	}
+	.bottom p{
+		text-align: center;
+		font-size: 12px;
+		line-height: 12px;
+		margin-bottom: 12px;
+	}
+	.bottom p a{
+		color: black;
+	}
+	.bottom hr{
+		margin-bottom: 14px;
+		border: 0 none;
+		border-top: 2px solid #888;
+	}
+	.bottom .shanbiaotu{
+		display: flex;
+		height: 45px;
+		margin: 0 auto 10px;
+		justify-content: center;
+	}
+	.guanggao .yinweida{
+		position: fixed;
+		left: 0px;
+		top: 80px;
+	}
+	.guanggao .yinweida #close1{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.guanggao .movie{
+		position: fixed;
+		right: 0px;
+		top: 80px;
+	}
+	.guanggao .movie #close2{
+		position: absolute;
+		left: 0;
+		top: 0;
 	}

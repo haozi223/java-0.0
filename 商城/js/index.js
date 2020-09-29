@@ -25,6 +25,12 @@
         huantu.classList.remove('chaxun2');
         huantu.classList.add('chaxun1');
     }
+    document.getElementById('close1').onclick = function () {
+        document.getElementsByClassName('yinweida')[0].style.display = 'none';
+    }
+    document.getElementById('close2').onclick = function () {
+        document.getElementsByClassName('movie')[0].style.display = 'none';
+    }
 
     function showTime () {
         var date = new Date();
